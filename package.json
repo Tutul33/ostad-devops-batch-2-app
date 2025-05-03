@@ -7,6 +7,6 @@
     "socket.io": "^4.8.1"
   },
   "scripts": {
-  "test": "echo \"No tests yet\" && exit 0"
+  "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=./test-results/test-report.xml"
 }
 }
